@@ -37,6 +37,6 @@ else{
 
 
 console.log(somma)
-document.getElementById("somma").innerHTML = somma + " €";
+document.getElementById("somma").innerHTML = somma.toFixed(2) + " €";
 
 
